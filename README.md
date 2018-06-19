@@ -21,6 +21,13 @@ In future, we expect gRPC-Web to be supported in
 language-specific Web frameworks, such as Python, Java, and Node. See the
 [roadmap](https://github.com/grpc/grpc-web/blob/master/ROADMAP.md) doc.
 
+Protocol Buffers compared to JSON:
+
+* Use less data to communicate same information
+* Generate native classes for both client and server (so structure and types are built-in)
+* Offer the ability to rename fields and change compatible types
+* Are slower to parse
+
 ## Quick start
 
 Try gRPC-Web and run a quick Echo example from the browser!
